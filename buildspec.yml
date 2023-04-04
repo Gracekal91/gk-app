@@ -10,8 +10,6 @@ phases:
 
       # Upgrade AWS CLI to the latest version
       - pip install --upgrade awscli
-  pre_build:
-      # Discover and run unit tests in the 'tests' directory
   build:
     commands:
       # Use AWS SAM to package the application by using AWS CloudFormation
